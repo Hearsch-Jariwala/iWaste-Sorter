@@ -1,0 +1,43 @@
+{% extends 'base.html' %}
+
+{% block content %}
+<div class="row">
+  <div class="col-sm-8 offset-sm-2">
+  </div>
+</div>
+<div class="row">
+  <div class="mb-2 col-md-6 offset-md-3">
+    <form action="/infer" method="POST" enctype="multipart/form-data">
+      <div class="input-group">
+        <div class="custom-file">
+          <input type="file" name="file" accept=".jpg, .jpeg, .png"
+                 class="custom-file-input" id="inputGroupFile"
+            aria-describedby="inputGroupFileAddon04">
+          <label class="custom-file-label"  for="inputGroupFile">Choose
+            file</label>
+        </div>
+        <div class="input-group-append">
+          <input type="submit" value="Upload"
+                 class="btn btn-outline-secondary" type="button"
+            id="inputGroupFileAddon04" /> 
+        </div> 
+
+        <div class="body px-6 py-6 pt-md-5 pb-md-4 mx-auto text-center">
+          <img
+                  src="https://info.waxie.com/hs-fs/hubfs/The-Future-of-Recycling-in-America-01.png?width=2917&name=The-Future-of-Recycling-in-America-01.png" width="600" height="300"
+               alt="Waste Sorter">
+          <p class="text-muted">This application works with a neural network
+            that is developed as part of an academic project for a deep
+            learning course -AIPI 540.</p>
+          <p class="text-muted">The neural network was designed using Pytorch
+            and trained on this <a
+                    href='https://github.com/garythung/trashnet'>dataset.
+            </a> It works perfectly on images corresponding to its training,
+            however it is possible that if your image goes too far from the
+            format then it does not detect the waste well.</p>
+        </div>
+      </div>
+    </form>
+  </div>
+</div>
+{% endblock %}
