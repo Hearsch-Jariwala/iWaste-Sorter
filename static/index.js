@@ -119,7 +119,6 @@ function showResult(resultJson){
     // show probability
     document.getElementById("probStr").innerHTML =
         "Probability : " + resultJson.probability.toFixed(2) + "%";
-
 }
 
 

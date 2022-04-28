@@ -12,7 +12,7 @@ COPY requirements.txt ./requirements.txt
 RUN pip3 install -r requirements.txt
 
 # Expose port
-EXPOSE 8080
+EXPOSE 8080/tcp
 
 # Copy all files for app
 COPY . /app
