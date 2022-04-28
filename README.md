@@ -5,8 +5,7 @@
 
 ## Motivation
 
-<p align="left"> <img src="https://aetra.co.id/images/
-sahabat_aetra/peduli_sampah.jpg" height=25% width=25%>
+<p align="left"> <img src="https://aetra.co.id/images/sahabat_aetra/peduli_sampah.jpg" height=25% width=25%>
 
 By following the three R's - Reduce, Reuse, Recycle, you are helping to 
 create a more sustainable future for our planet and future generations. 
